@@ -1,6 +1,6 @@
 /* P0.c */
-/* seu_nome */
-/* sua_matricula */
+/* Antonio Augusto Ananias Oliveira */
+/* 11811EEL013 */
 #include <stdio.h>
 int main(int argc, char **argv) {
 int i;
