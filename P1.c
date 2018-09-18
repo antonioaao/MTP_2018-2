@@ -24,7 +24,7 @@ int main()
 		estado=2;
 		x++;
 	}
-	if(estado==0) printf("\n\"%s\" e multiplo de 3", bits);
-	else printf("\n\"%s\" nao e", bits);
+	if(estado==0) printf("\"%s\" e multiplo de 3", bits);
+	else printf("\"%s\" nao e", bits);
 	return 0;
 }
