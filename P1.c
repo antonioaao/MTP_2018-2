@@ -7,7 +7,7 @@ int main()
 	int estado=0, x=0;
 	char bits[256];
 	printf("\nDigite uma sequencia binaria, meu consagrado!\n");
-	scanf("%s",&bits);
+	scanf("%s",bits);
 	while(bits[x]!= '\0')
 	{
 		if(estado==0 && bits[x]== '0')
