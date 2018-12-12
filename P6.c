@@ -27,7 +27,7 @@ void mostrar_pontos(ponto *ponto_inicial, ponto *ponto_final)
 {
     if(ponto_inicial < ponto_final)
 	{
-        printf("(%.3lf , %.3lf)\n", ponto_inicial->x, ponto_inicial->y);
+        printf("(%.3lf, %.3lf) ", ponto_inicial->x, ponto_inicial->y);
         mostrar_pontos(ponto_inicial+1,ponto_final);
     }
 }
